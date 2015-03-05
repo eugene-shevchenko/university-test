@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.university</groupId>
-    <artifactId>ut-parent</artifactId>
+    <artifactId>ps-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <description>Simple university test application</description>
+    <description>Simple philosophic school test application</description>
     <inceptionYear>2015</inceptionYear>
 
     <developers>
@@ -27,8 +27,8 @@
     </parent>
 
     <modules>
-        <module>libraries</module>
-        <module>web</module>
+        <module>Libraries</module>
+        <module>Web</module>
     </modules>
 
     <properties>
