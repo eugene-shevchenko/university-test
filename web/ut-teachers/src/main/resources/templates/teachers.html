@@ -1,0 +1,35 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="content/html; charset=UTF-8"/>
+    <title>Teachers list</title>
+
+    <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.2/css/bootstrap.min.css"
+          th:href="@{/webjars/bootstrap/3.3.2/css/bootstrap.min.css}"
+          rel="stylesheet" media="screen" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"
+          th:href="@{/webjars/bootstrap/3.3.2/css/bootstrap-theme.min.css}"
+          rel="stylesheet" media="screen" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"
+            th:src="@{/webjars/bootstrap/3.3.2/js/bootstrap.min.js}"></script>
+    <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.1/jquery.min.js"
+            th:src="@{/webjars/jquery/2.1.1/jquery.min.js}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="page-header">
+                <h1>PhilSchool <small>World's best philosophic school</small></h1>
+            </div>
+            <h3>Our best teachers:</h3>
+            <ul>
+                <li th:each="teacher : ${teachers}">
+                    <a href="/teachers/1" th:href="@{'/teachers/' + ${teacher.id}}"  th:text="${teacher.name}" target="_blank">Karl Marks</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

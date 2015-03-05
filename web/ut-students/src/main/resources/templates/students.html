@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Students list</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"/>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"/>
+</head>
+<body>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="page-header">
+                <h1>PhilSchool <small>World's best philosophic school</small></h1>
+            </div>
+            <h3>Our alive students:</h3>
+            <ol>
+                <li th:each="student : ${aliveStudents}">
+                    <a href="/students/1" th:href="@{'/students/' + ${student.id}}" th:text="${student.name}" target="_blank">Smart Student</a>
+                </li>
+            </ol>
+            <h3>Our dead students:</h3>
+            <ul>
+                <li th:each="student : ${deadStudents}">
+                    <a href="/students/1" th:href="@{'/students/' + ${student.id}}" th:text="${student.name}" target="_blank">Smart Student</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

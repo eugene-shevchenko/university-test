@@ -1,0 +1,44 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="content/html; charset=UTF-8"/>
+    <title>Student page</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"/>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"/>
+</head>
+<body>
+<div class="container">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="page-header">
+                    <h1>PhilSchool <small>World's best philosophic school</small></h1>
+                </div>
+                <h3><span th:text="${student.isAlive()} ? 'Alive ':'Dead '"></span><em th:text="${student.name}">Smart Student</em> dialogs:</h3>
+                
+                
+                <div class="row" th:each="teacher : ${answersCounter.keySet()}">
+                    
+                    <div th:each="question : ${answersCounter.get(teacher).keySet()}" class="col-md-8 col-md-offset-2">
+                        <blockquote style="margin: 0;">
+                            <p th:text="${question.content}">Lorem ipsum dolor sit amet ?</p>
+                            <footer><cite th:text="${student.name}">Smart Student</cite></footer>
+                        </blockquote>
+                        <blockquote class="blockquote-reverse">
+                            <p th:each="answer : ${answersCounter.get(teacher).get(question)}" th:text="${answer.content}">Lorem ipsum dolor sit amet ?</p>
+                            <footer><cite th:text="${teacher.name}">Karl Marks</cite></footer>
+                        </blockquote>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

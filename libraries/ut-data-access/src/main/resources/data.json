@@ -1,0 +1,362 @@
+[
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 1,
+    "type": "QUESTION",
+    "content": "If you could choose just one thing to change about the world, what would it be?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 2,
+    "type": "ANSWER",
+    "content": "Signs point to yes."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 3,
+    "type": "ANSWER",
+    "content": "Outlook good."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 4,
+    "type": "QUESTION",
+    "content": "What is true strength?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 5,
+    "type": "QUESTION",
+    "content": "How much control do you have over your life?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 6,
+    "type": "QUESTION",
+    "content": "Isn’t one person’s terrorist another person’s freedom fighter?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 7,
+    "type": "ANSWER",
+    "content": "Better not tell you now."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 8,
+    "type": "QUESTION",
+    "content": "What role does honour play in today’s society?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 9,
+    "type": "QUESTION",
+    "content": "Who decides what morality is?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 10,
+    "type": "QUESTION",
+    "content": "Does nature shape our personalities more than nurture?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 11,
+    "type": "QUESTION",
+    "content": "What is the truth?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 12,
+    "type": "ANSWER",
+    "content": "Yes - definitely."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 13,
+    "type": "ANSWER",
+    "content": "Without a doubt."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 14,
+    "type": "QUESTION",
+    "content": "What makes a good friend?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 15,
+    "type": "QUESTION",
+    "content": "How do you know your perceptions are real?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 16,
+    "type": "QUESTION",
+    "content": "If money cannot buy happiness, can you ever be truly happy with no money?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 17,
+    "type": "QUESTION",
+    "content": "Is a “wrong” act okay if nobody ever knows about it?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 18,
+    "type": "QUESTION",
+    "content": "What is the difference between living and being alive?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 19,
+    "type": "ANSWER",
+    "content": "As I see it, yes."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 20,
+    "type": "ANSWER",
+    "content": "Very doubtful."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 21,
+    "type": "QUESTION",
+    "content": "How do you know that your experience of consciousness is the same as other people’s experience of consciousness?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 22,
+    "type": "ANSWER",
+    "content": "Yes."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 23,
+    "type": "ANSWER",
+    "content": "It is decidedly so."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 24,
+    "type": "ANSWER",
+    "content": "My reply is no."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 25,
+    "type": "QUESTION",
+    "content": "What happens after we die?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 26,
+    "type": "QUESTION",
+    "content": "What makes you, you?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 27,
+    "type": "ANSWER",
+    "content": "Reply hazy, try again."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 28,
+    "type": "QUESTION",
+    "content": "Where is the line between insanity and creativity?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 29,
+    "type": "QUESTION",
+    "content": "Should people care more about doing the right thing, or doing things right?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 30,
+    "type": "ANSWER",
+    "content": "You may rely on it."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 31,
+    "type": "ANSWER",
+    "content": "Concentrate and ask again."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 32,
+    "type": "QUESTION",
+    "content": "Why do people fear losing things that they do not even have yet?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 33,
+    "type": "QUESTION",
+    "content": "Is a family still relevant in the modern world?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 34,
+    "type": "ANSWER",
+    "content": "Outlook not so good."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 35,
+    "type": "QUESTION",
+    "content": "What is true happiness?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 36,
+    "type": "ANSWER",
+    "content": "Ask again later."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 37,
+    "type": "ANSWER",
+    "content": "My sources say no."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 38,
+    "type": "QUESTION",
+    "content": "What things hold you back from doing the things that you really want to?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 39,
+    "type": "QUESTION",
+    "content": "To what extent do you shape your own destiny, and how much is down to fate?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 40,
+    "type": "QUESTION",
+    "content": "Who defines good and evil?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 41,
+    "type": "QUESTION",
+    "content": "What is true love?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 42,
+    "type": "ANSWER",
+    "content": "Cannot predict now."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 43,
+    "type": "QUESTION",
+    "content": "Do you make your own decisions, or let others make them for you?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 44,
+    "type": "QUESTION",
+    "content": "What one piece of advice would you offer to a newborn infant?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 45,
+    "type": "ANSWER",
+    "content": "Don't count on it."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 46,
+    "type": "ANSWER",
+    "content": "Most likely."
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 47,
+    "type": "QUESTION",
+    "content": "What is freedom?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 48,
+    "type": "QUESTION",
+    "content": "Is it worse to fail at something or never attempt it in the first place?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 49,
+    "type": "QUESTION",
+    "content": "What is reality?"
+  },
+  {
+    "_class": "com.university.domain.Phrase",
+    "id": 50,
+    "type": "ANSWER",
+    "content": "It is certain."
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 1,
+    "role": "PHILOSOPHER",
+    "name": "John Locke"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 2,
+    "role": "PHILOSOPHER",
+    "name": "Epicurus"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 3,
+    "role": "PHILOSOPHER",
+    "name": "Zeno of Citium"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 4,
+    "role": "PHILOSOPHER",
+    "name": "Avicenna"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 5,
+    "role": "PHILOSOPHER",
+    "name": "Thomas Aquinas"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 6,
+    "role": "PHILOSOPHER",
+    "name": "Confucius"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 7,
+    "role": "PHILOSOPHER",
+    "name": "Rene Descartes"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 8,
+    "role": "PHILOSOPHER",
+    "name": "Paul of Tarsus"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 9,
+    "role": "PHILOSOPHER",
+    "name": "Plato"
+  },
+  {
+    "_class": "com.university.domain.Person",
+    "id": 10,
+    "role": "PHILOSOPHER",
+    "name": "Aristotle"
+  }
+]        
