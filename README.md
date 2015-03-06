@@ -42,7 +42,7 @@ Implementation
 
 How to build
 ```
-.../university-test$ mvn clean package
+.../university-test$ mvn clean install
 ```
 
 How to start:
