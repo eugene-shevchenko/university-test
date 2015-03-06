@@ -51,5 +51,5 @@ How to start:
 .../university-test/Web/ps-students$ mvn spring-boot:run
 ```
 
-Teachers app available at: http://localhost:8180/
-Students app available at: http://localhost:8080/
+- Teachers app available at: http://localhost:8180/
+- Students app available at: http://localhost:8080/
