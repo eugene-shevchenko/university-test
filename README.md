@@ -36,3 +36,16 @@ Implementation
 * using json rpc for dialog between servers
 * using spring MVC for web page
 * in memory H2 db for storage
+
+
+---
+
+How to build
+`.../university-test$ mvn clean package`
+
+How to start:
+`.../university-test/Web/ps-teachers$ mvn spring-boot:run`
+`.../university-test/Web/ps-students$ mvn spring-boot:run`
+
+Teachers app available at: http://localhost:8180/
+Students app available at: http://localhost:8080/
